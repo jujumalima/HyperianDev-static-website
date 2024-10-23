@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Thendo Malima's CV</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding-top: 60px;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #006bff;
+            transition: background-color 0.3s;
+        }
+        .navbar:hover {
+            background-color: #0056b3;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #ffffff !important;
+            transition: color 0.3s;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffd700 !important;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+        .container {
+            margin-bottom: 40px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.02);
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">@thendomalima</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5 fade-in" id="about">
+    <h2>About Me</h2>
+    <p>I'm Thendo Malima, a passionate Software Engineer with a strong foundation in developing scalable applications and deploying them in cloud environments. My journey in technology has ignited a love for problem-solving and innovation, pushing me to explore the realms of Cloud Computing and DevOps.</p>
+    <p>What motivates me the most is the impact that technology can have on our everyday lives. I'm dedicated to creating efficient systems that not only enhance user experiences but also streamline workflows. I aspire to be at the forefront of technological advancements, continuously learning and adapting in this fast-paced industry.</p>
+</div>
+
+<div class="container mt-5 section fade-in" id="contact">
+    <h2>Contact Details</h2>
+    <ul class="contact-info">
+        <li>Name: Thendo Malima</li>
+        <li>Phone: +27735891463</li>
+        <li>Email: <a href="mailto:thendosmalima@gmail.com">thendosmalima@gmail.com.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/thendo-malima-220734a2/">My LinkedIn Profile</a></li>
+    </ul>
+</div>
+
+<div class="container mt-5 section fade-in" id="skills">
+    <h2>Skills and Competencies</h2>
+    <ul>
+        <li>Proficient in programming languages: Python, Java, and JavaScript.</li>
+        <li>Experience with cloud platforms: AWS, Azure, and Google Cloud.</li>
+        <li>Expertise in DevOps tools: Docker, Kubernetes, Jenkins, and Terraform.</li>
+        <li>Strong understanding of CI/CD pipelines and automated deployment strategies.</li>
+        <li>Solid knowledge of database management systems, including SQL and NoSQL.</li>
+    </ul>
+</div>
+
+<div class="container mt-5 section fade-in" id="education">
+    <h2>Education</h2>
+    <p>Bachelor's in Computer Science</p>
+</div>
+
+<div class="container mt-5 section fade-in" id="experience">
+    <h2>Work Experience</h2>
+    <p><strong>Software Engineer</strong></p>
+    <p>In my current role, I design, develop, and maintain scalable applications, leveraging cloud services to enhance performance and reliability. My responsibilities also include implementing DevOps practices to optimize deployment processes and ensure continuous integration and delivery.</p>
+    
+    <p><strong>Cloud Developer</strong> </p>
+    <p>I contributed to several cloud migration projects, helping organizations transition to cloud-based solutions. I utilized various tools and frameworks to ensure seamless integration and deployment while maintaining high standards of security and efficiency.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Thendo Malima. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
